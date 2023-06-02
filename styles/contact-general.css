@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+label {
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+}
+
+textarea {
+    min-height: 200px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 2;
+    resize: none;
+}
+
+main {    
+    height: 90%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsteelblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: 100px;
+    margin-bottom: 50px;
+}
